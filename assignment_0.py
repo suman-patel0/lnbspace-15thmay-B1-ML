@@ -181,7 +181,7 @@ d = {'Name': ['Akash', 'Soniya', 'Vishakha' , 'Akshay', 'Rahul', 'Vikas'],
 
 subject = input()               #take the input
 
-newData = {'Name': [], 'Subject': [], 'Ratings':[] }                    #create an empty dictionary
+newData = {'Name': [], 'Subject': [], 'Ratings':[] }                    #create an empty dictionary with keys
 
 #make a list of indices of the given input from the previously given dictionary
 subject_index_list = [index for index in range(len(d['Subject'])) if subject == d['Subject'][index]]
