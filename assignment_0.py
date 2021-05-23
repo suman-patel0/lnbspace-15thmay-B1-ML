@@ -248,6 +248,6 @@ vertical = abs(lst[0][1] - lst[1][1])        #vertical distance travelled
 horizontal = abs(lst[2][1] - lst[3][1])      #horizontal distance travelled
 
 distance = math.sqrt(vertical**2 + horizontal**2)  #total distance from current position
-print(int(distance))
+print(round(distance))
 
 
